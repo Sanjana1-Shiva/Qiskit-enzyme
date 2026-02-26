@@ -37,3 +37,16 @@ As quantum computing hardware matures the same approach can be extended toward l
 STATUS
 
 This repository contains a working prototype focused on conceptual correctness and physical interpretability. It is not a full quantum chemistry engine but a demonstration of how reaction pathways can emerge from quantum dynamics encoded directly in software.
+
+CLIMATE AWARE ENZYME STABILITY PREDICTOR (CAESP)
+
+A CAESP module is included in the Streamlit UI as a second simulation option inside the Generate section. It evaluates how candidate enzyme Hamiltonians retain catalytic efficiency under climate-linked stressors:
+
+- Heat (temperature)
+- Drought intensity
+- Salinity
+- pH deviation
+
+Each stressor contributes to an effective environment perturbation term in the Hamiltonian. The interface reports retained catalytic efficiency relative to baseline and plots reaction probability versus stress intensity for rapid simulation-first screening.
+
+This provides an MVP workflow for testing whether enzyme variants remain functional before costly field trials.
