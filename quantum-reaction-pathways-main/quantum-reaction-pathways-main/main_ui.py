@@ -60,6 +60,7 @@ with tab_library:
 with tab_screen:
     screen_page()
 
+
 def reset_session():
     for key in list(st.session_state.keys()):
         del st.session_state[key]
